@@ -87,9 +87,9 @@ entity gates is
     port(
         x_i    : in  std_logic;
         y_i    : in  std_logic;
-        z_i	   : in  std_logic;
+        z_i	: in  std_logic;
         
-		f1_o   : out std_logic;
+	f1_o   : out std_logic;
         f2_o   : out std_logic;
         f3_o   : out std_logic;
         f4_o   : out std_logic
@@ -110,7 +110,7 @@ end architecture dataflow;
 ```
 
 #### Simulation screenshot
-![Simulation Distributive laws](Images/DistributiveLaws.png)
+![Simulation Distributive laws](Images/DistributiveLaws.PNG)
 
 #### EDA Playground Distributive laws example 
 [EDA Playground source code](https://www.edaplayground.com/x/mh49)
