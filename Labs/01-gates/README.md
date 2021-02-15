@@ -2,7 +2,7 @@
 [**My GitHub repository**](https://github.com/xhruby28/Digital-electronics-1)
 
 ### De Morgan's laws simulation
-#### VHDL Code
+- #### VHDL Code
 
 ```vhdl
 library ieee;               -- Standard library
