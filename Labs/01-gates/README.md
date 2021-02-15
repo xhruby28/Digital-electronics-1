@@ -13,6 +13,6 @@ begin
 end architecture dataflow;
 ```
 
-![Simulation De Morgan's law](Images/.png)
+![Simulation De Morgan's law](Images/DeMorgansLaws.png)
 
-[](https://www.edaplayground.com/x/7Xvg)
+[EDA Playground source code](https://www.edaplayground.com/x/7Xvg)
