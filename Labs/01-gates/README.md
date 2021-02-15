@@ -46,7 +46,7 @@ end architecture dataflow;
 ```
 
 #### Simulation screenshot
-![Simulation De Morgan's law](Images/DeMorgansLaws.png)
+![Simulation De Morgan's law](Images/DeMorgansLaws.PNG)
 
 #### EDA Playground De Morgan's laws example 
 [EDA Playground source code](https://www.edaplayground.com/x/7Xvg)
