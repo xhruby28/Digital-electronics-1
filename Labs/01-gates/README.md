@@ -53,7 +53,7 @@ end architecture dataflow;
 
 
 ## Distributive laws simulation
-*f1 = x · y + x · z = 0 
+*f1 = x · y + x · z = 0*
 
 *f2 =
 
