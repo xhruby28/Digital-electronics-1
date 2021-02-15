@@ -2,7 +2,7 @@
 [**My GitHub repository**](https://github.com/xhruby28/Digital-electronics-1)
 
 ## De Morgan's laws simulation
-
+* 
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 |
