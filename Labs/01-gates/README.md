@@ -1,17 +1,6 @@
 # 01-gates
 [**My GitHub repository**](https://github.com/xhruby28/Digital-electronics-1)
 
-| **c** | **b** |**a** | **f(c,b,a)** |
-| :-: | :-: | :-: | :-: |
-| 0 | 0 | 0 | 1 |
-| 0 | 0 | 1 | 1 |
-| 0 | 1 | 0 | 0 |
-| 0 | 1 | 1 | 0 |
-| 1 | 0 | 0 | 0 |
-| 1 | 0 | 1 | 1 |
-| 1 | 1 | 0 | 0 |
-| 1 | 1 | 1 | 0 |
-
 ## De Morgan's laws simulation
 
 | **c** | **b** |**a** | **f(c,b,a)** |
