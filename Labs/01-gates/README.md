@@ -20,7 +20,7 @@ library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
 
 ------------------------------------------------------------------------
--- Entity declaration for basic gates
+-- Entity declaration
 ------------------------------------------------------------------------
 entity gates is
     port(
@@ -35,7 +35,7 @@ entity gates is
 end entity gates;
 
 ------------------------------------------------------------------------
--- Architecture body for basic gates
+-- Architecture body
 ------------------------------------------------------------------------
 architecture dataflow of gates is
 begin
@@ -64,23 +64,53 @@ end architecture dataflow;
 
 | **z** | **y** |**x** | **f1** | **f2** | **f3** | **f4** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0 | 0 |  |  |  |  |
-| 0 | 0 | 1 |  |  |  |  |
-| 0 | 1 | 0 |  |  |  |  |
-| 0 | 1 | 1 |  |  |  |  |
-| 1 | 0 | 0 |  |  |  |  |
-| 1 | 0 | 1 |  |  |  |  |
-| 1 | 1 | 0 |  |  |  |  |
-| 1 | 1 | 1 |  |  |  |  |
+| 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 0 | 1 | 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 0 | 1 | 1 | 1 | 1 | 1 | 1 |
+| 1 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 | 1 | 1 | 1 |
+| 1 | 1 | 0 | 0 | 0 | 1 | 1 |
+| 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 
 #### VHDL Code
 
 ```vhdl
+library ieee;               -- Standard library
+use ieee.std_logic_1164.all;-- Package for data types and logic operations
 
+------------------------------------------------------------------------
+-- Entity declaration
+------------------------------------------------------------------------
+
+entity gates is
+    port(
+        x_i    : in  std_logic;
+        y_i    : in  std_logic;
+        z_i	   : in  std_logic;
+        
+		f1_o   : out std_logic;
+        f2_o   : out std_logic;
+        f3_o   : out std_logic;
+        f4_o   : out std_logic
+    );
+end entity gates;
+
+------------------------------------------------------------------------
+-- Architecture body
+------------------------------------------------------------------------
+
+architecture dataflow of gates is
+begin
+    f1_o  <= (x_i and y_i) or (x_i and z_i);
+    f2_o  <= x_i and (y_i or z_i);
+    f3_o  <= (x_i or y_i) and (x_i or z_i);
+    f4_o  <= x_i or (y_i and z_i);
+end architecture dataflow;
 ```
 
 #### Simulation screenshot
-![Simulation Distributive laws](Images/DeMorgansLaws.png)
+![Simulation Distributive laws](Images/DistributiveLaws.png)
 
 #### EDA Playground Distributive laws example 
 [EDA Playground source code](https://www.edaplayground.com/x/mh49)
