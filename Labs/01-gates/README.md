@@ -53,13 +53,13 @@ end architecture dataflow;
 
 
 ## Distributive laws simulation
-f1 = ·
+*f1 = x · y + x · z = 0 
 
-f2 =
+*f2 =
 
-f3 =
+*f3 =
 
-f4 =
+*f4 =
 
 
 | **z** | **y** |**x** | **f1** | **f2** | **f3** | **f4** |
