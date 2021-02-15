@@ -48,5 +48,35 @@ end architecture dataflow;
 #### Simulation screenshot
 ![Simulation De Morgan's law](Images/DeMorgansLaws.png)
 
-#### EDA Playground example 
+#### EDA Playground De Morgan's laws example 
 [EDA Playground source code](https://www.edaplayground.com/x/7Xvg)
+
+
+## Distributive laws simulation
+f1 = 
+f2 =
+f3 =
+f4 =
+
+| **z** | **y** |**x** | **f1** | **f2** | **f3** | **f4** |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 |  |  |  |  |
+| 0 | 0 | 1 |  |  |  |  |
+| 0 | 1 | 0 |  |  |  |  |
+| 0 | 1 | 1 |  |  |  |  |
+| 1 | 0 | 0 |  |  |  |  |
+| 1 | 0 | 1 |  |  |  |  |
+| 1 | 1 | 0 |  |  |  |  |
+| 1 | 1 | 1 |  |  |  |  |
+
+#### VHDL Code
+
+```vhdl
+
+```
+
+#### Simulation screenshot
+![Simulation Distributive laws](Images/DeMorgansLaws.png)
+
+#### EDA Playground Distributive laws example 
+[EDA Playground source code](https://www.edaplayground.com/x/mh49)
