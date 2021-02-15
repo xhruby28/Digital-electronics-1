@@ -54,9 +54,13 @@ end architecture dataflow;
 
 ## Distributive laws simulation
 f1 = 
+
 f2 =
+
 f3 =
+
 f4 =
+
 
 | **z** | **y** |**x** | **f1** | **f2** | **f3** | **f4** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
