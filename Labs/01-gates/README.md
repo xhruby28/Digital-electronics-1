@@ -2,7 +2,7 @@
 [**My GitHub repository**](https://github.com/xhruby28/Digital-electronics-1)
 
 ### De Morgan's laws simulation
-- #### VHDL Code
+- #### VHDL Code(
 
 ```vhdl
 library ieee;               -- Standard library
@@ -33,6 +33,7 @@ begin
     fnor_o <= not (b_i or not a_i) or not (c_i or b_i);
 end architecture dataflow;
 ```
+)
 
 - #### Simulation screenshot
 ![Simulation De Morgan's law](Images/DeMorgansLaws.png)
