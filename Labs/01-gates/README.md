@@ -1,7 +1,18 @@
 # 01-gates
 [**My GitHub repository**](https://github.com/xhruby28/Digital-electronics-1)
 
-### De Morgan's laws simulation
+| **c** | **b** |**a** | **f(c,b,a)** |
+| :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 1 |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 |
+| 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 0 |
+
+## De Morgan's laws simulation
 * #### VHDL Code
 
 ```vhdl
@@ -34,9 +45,8 @@ begin
 end architecture dataflow;
 ```
 
-* #### Simulation screenshot
+#### Simulation screenshot
 ![Simulation De Morgan's law](Images/DeMorgansLaws.png)
 
-* #### EDA Playground example 
-* [EDA Playground source code](https://www.edaplayground.com/x/7Xvg)
-
+#### EDA Playground example 
+[EDA Playground source code](https://www.edaplayground.com/x/7Xvg)
