@@ -58,10 +58,8 @@ end architecture dataflow;
 - *f2 = x · (y + z)*
 
 *f3 = f4*
-
-*f3 = 
-
-*f4 =
+- *f3 = (x + y) · (x + z)*
+- *f4 = x + (y · z)*
 
 
 | **z** | **y** |**x** | **f1** | **f2** | **f3** | **f4** |
