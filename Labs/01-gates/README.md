@@ -53,7 +53,7 @@ end architecture dataflow;
 
 
 ## Distributive laws simulation
-f1 = 
+f1 = ·
 
 f2 =
 
