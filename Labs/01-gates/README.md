@@ -1,7 +1,7 @@
 ## 01-gates
 [My GitHub repository](https://github.com/xhruby28/Digital-electronics-1)
 
-####De Morgan's laws simulation
+#### De Morgan's laws simulation
 
 ```vhdl
 architecture dataflow of gates is
