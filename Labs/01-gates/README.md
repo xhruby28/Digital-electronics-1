@@ -4,7 +4,7 @@
 ### De Morgan's laws simulation
 * #### VHDL Code
 
- * ```vhdl
+```vhdl
 library ieee;               -- Standard library
 use ieee.std_logic_1164.all;-- Package for data types and logic operations
 
@@ -38,5 +38,5 @@ end architecture dataflow;
 ![Simulation De Morgan's law](Images/DeMorgansLaws.png)
 
 * #### EDA Playground example 
-[EDA Playground source code](https://www.edaplayground.com/x/7Xvg)
+* [EDA Playground source code](https://www.edaplayground.com/x/7Xvg)
 
