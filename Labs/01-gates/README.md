@@ -13,7 +13,18 @@
 | 1 | 1 | 1 | 0 |
 
 ## De Morgan's laws simulation
-* #### VHDL Code
+
+| **c** | **b** |**a** | **f(c,b,a)** |
+| :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 | 1 |
+| 0 | 0 | 1 | 1 |
+| 0 | 1 | 0 | 0 |
+| 0 | 1 | 1 | 0 |
+| 1 | 0 | 0 | 0 |
+| 1 | 0 | 1 | 1 |
+| 1 | 1 | 0 | 0 |
+| 1 | 1 | 1 | 0 |
+#### VHDL Code
 
 ```vhdl
 library ieee;               -- Standard library
@@ -24,13 +35,13 @@ use ieee.std_logic_1164.all;-- Package for data types and logic operations
 ------------------------------------------------------------------------
 entity gates is
     port(
-        a_i    : in  std_logic;         -- Data input
-        b_i    : in  std_logic;         -- Data input
-        c_i	   : in  std_logic;
+        a_i    : in  std_logic;          -- Data input
+        b_i    : in  std_logic;          -- Data input
+        c_i    : in  std_logic;		 -- Data input
         
-		f_o    : out std_logic;        -- OR output function
+	f_o     : out std_logic;         -- OR output function
         fnand_o : out std_logic;         -- NAND output function
-        fnor_o : out std_logic          -- NOR output function
+        fnor_o  : out std_logic          -- NOR output function
     );
 end entity gates;
 
