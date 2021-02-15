@@ -1,7 +1,9 @@
 # Digital-electronics-1
 
 ## Labs
-### VHDL Operators
+### 01-gates
+
+## VHDL Operators
 | **Operator** | **Description** |
 | :-: | :-- |
 | `<=` | Value assignment |
