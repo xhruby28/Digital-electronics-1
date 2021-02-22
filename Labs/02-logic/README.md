@@ -70,42 +70,42 @@ end architecture Behavioral;
         assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
         report "Test failed for input combination: 0000, 0000" severity error;
 
-		s_b <= "0101"; s_a <= "1001"; wait for 100 ns;
-		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
-		report "Test failed for input combination: 0101, 1001" severity error;
+	s_b <= "0101"; s_a <= "1001"; wait for 100 ns;
+	assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+	report "Test failed for input combination: 0101, 1001" severity error;
         
         s_b <= "0111"; s_a <= "1000"; wait for 100 ns;
-		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
-		report "Test failed for input combination: 0111, 1000" severity error;
+	assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+	report "Test failed for input combination: 0111, 1000" severity error;
         
         s_b <= "0101"; s_a <= "0001"; wait for 100 ns;
-		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 0101, 0001" severity error;
+	assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+	report "Test failed for input combination: 0101, 0001" severity error;
         
         s_b <= "1111"; s_a <= "1111"; wait for 100 ns;
-		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 1111, 1111" severity error;
+	assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+	report "Test failed for input combination: 1111, 1111" severity error;
         
         s_b <= "0001"; s_a <= "0001"; wait for 100 ns;
-		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 0001, 0001" severity error;
+	assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+	report "Test failed for input combination: 0001, 0001" severity error;
         
         s_b <= "0101"; s_a <= "1001"; wait for 100 ns;
-		assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
-		report "Test failed for input combination: 0101, 1001" severity error;
+	assert ((s_B_greater_A = '0') and (s_B_equals_A = '0') and (s_B_less_A = '1'))
+	report "Test failed for input combination: 0101, 1001" severity error;
         
         s_b <= "1111"; s_a <= "0000"; wait for 100 ns;
-		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 0101, 1001" severity error;
+	assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+	report "Test failed for input combination: 0101, 1001" severity error;
         
         s_b <= "0111"; s_a <= "0001"; wait for 100 ns;
-		assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 0001, 1111" severity error;
+	assert ((s_B_greater_A = '1') and (s_B_equals_A = '0') and (s_B_less_A = '0'))
+	report "Test failed for input combination: 0001, 1111" severity error;
         
         -- Intentional mistake
         s_b <= "0101"; s_a <= "1101"; wait for 100 ns;
-		assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
-		report "Test failed for input combination: 0101, 1101" severity error;
+	assert ((s_B_greater_A = '0') and (s_B_equals_A = '1') and (s_B_less_A = '0'))
+	report "Test failed for input combination: 0101, 1101" severity error;
 
 
         -- Report a note at the end of stimulus process
