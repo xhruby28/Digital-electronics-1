@@ -117,10 +117,10 @@ end architecture Behavioral;
 ```
 
 ### Simulator console output
-![Simulation console output](Images/Error_message.PNG) 
+![Simulation console output](Images/Error_message.png) 
 
 ### 4-bit simulation EPWave
-![Simulation EPWave](Images/4bit_WaveForm.PNG) 
+![Simulation EPWave](Images/4bit_WaveForm.png) 
 
 
 ### My EDA playground example
