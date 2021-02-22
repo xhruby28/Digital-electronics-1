@@ -22,8 +22,8 @@
 
 ## A 2-bit comparator
 
-![B_Greater_A Karnaugh map 4x4](Images/kmap_greater.png) &nbsp;  &nbsp;  &nbsp;  &nbsp; 
-![B_Equal_A map 4x4](Images/kmap_equals.png) &nbsp;  &nbsp;  &nbsp;  &nbsp;
+![B_Greater_A Karnaugh map 4x4](Images/kmap_greater.png) &nbsp;  &nbsp;  &nbsp; 
+![B_Equal_A map 4x4](Images/kmap_equals.png) &nbsp;  &nbsp;  &nbsp;
 ![B_Less_A Karnaugh map 4x4](Images/kmap_less.png)
 
 ### My EDA playground example
@@ -37,7 +37,7 @@
 entity comparator_4bit is
     port(
         a_i           : in  std_logic_vector(4 - 1 downto 0);
-        b_i	          : in	std_logic_vector(4 - 1 downto 0);
+        b_i	      : in  std_logic_vector(4 - 1 downto 0);
 
         B_greater_A_o : out std_logic;
         B_equals_A_o  : out std_logic;
