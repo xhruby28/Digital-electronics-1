@@ -3,6 +3,7 @@
 ## Labs
 ### 01-gates
 [Labs 01-gates](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/01-gates)
+
 [Labs 02-logic](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/02-logic)
 
 ## VHDL Operators
