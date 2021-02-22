@@ -22,9 +22,9 @@
 
 ## A 2-bit comparator
 
-![B_Greater_A Karnaugh map 4x4](Images/kmap_greater.PNG) &nbsp;  &nbsp;  &nbsp;  &nbsp; 
-![B_Equal_A map 4x4](Images/kmap_equals.PNG) &nbsp;  &nbsp;  &nbsp;  &nbsp;
-![B_Less_A Karnaugh map 4x4](Images/kmap_less.PNG)
+![B_Greater_A Karnaugh map 4x4](Images/kmap_greater.png) &nbsp;  &nbsp;  &nbsp;  &nbsp; 
+![B_Equal_A map 4x4](Images/kmap_equals.png) &nbsp;  &nbsp;  &nbsp;  &nbsp;
+![B_Less_A Karnaugh map 4x4](Images/kmap_less.png)
 
 ### My EDA playground example
 - https://www.edaplayground.com/x/f8rK
