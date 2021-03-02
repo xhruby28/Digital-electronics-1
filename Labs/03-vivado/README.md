@@ -39,9 +39,10 @@
 | SW15 | V10 | LED15 | V11 |
 
 ## 2. Two-bit wide 4-to-1 multiplexer
-- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 
 ### VHDL architecture from source file mux_2bit_4to1.vhd
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
+
 ```vhdl
 
 library ieee;
@@ -77,7 +78,9 @@ begin
 end architecture Behavioral;
 ```
 
-### VHDL stimulus process from testbench file tb_mux_2bit_4to1.vhd [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
+### VHDL stimulus process from testbench file tb_mux_2bit_4to1.vhd
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
+
 ```vhdl
 
 library ieee;
@@ -172,11 +175,13 @@ end architecture testbench;
 ```
 
 ### Simulation screenshot
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 
 ![Simulation screenshot](Images/waveform.png)
 
 ## 3. Vivado tutorial
 ### Project creation
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 Open program Vivado. There is a **File** in the top bar: **File** -> **Project** -> **New...** 
 
 ![File](Images/newfile.png)
@@ -195,6 +200,7 @@ Now, you can choose **Default Part**. Select **Boards**, find and select board N
 ![File](Images/defaultboard.png)
 
 ### Adding sources
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 
 After creating project, you can add sources. They have similar creation procedure.
 In the top bar select **File** -> **Add sources...**
@@ -210,6 +216,7 @@ and click on **Add Files** and select destination of the file.
 If you want to create sources, testbench XDC constraints file, follow steps below. 
 
 #### 1. Creating source file
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 
 Select **Add or create design sources** -> **Next >**. 
 After that select **Create File**
@@ -223,6 +230,7 @@ Select **File type** to **VHDL** and name design after the project name and pres
 Now if you are done, press **Finish**.
 
 #### 2. Creating testbench file
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 
 Select **Add or create simulation sources** -> **Next >**.                                   
 After that select **Create File**
@@ -236,6 +244,7 @@ Select **File type** to **VHDL** and name testbench *tb_design_name* and press *
 Now if you are done, press **Finish**.
 
 #### 3. Creating XDC constraints file
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 
 You can find XDC constraits [**here**](https://github.com/Digilent/digilent-xdc) and find your board. You can copy code and create constraints file or download and import the file.
 If you want to create constraints file follow steps below.
@@ -252,6 +261,7 @@ Name constraints file, it's better to name the file according to the board you a
 Now if you are done, press **Finish**.
 
 ### Running simulation
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 
 After you are done with the coding and want to run the simulation you can use **Flow Navigator** below the menu bar on the left side.
 Find **Simulation** here, click on **Run Simulation** and select **Run Behavioral Simulation**.
