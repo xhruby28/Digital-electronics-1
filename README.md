@@ -6,6 +6,8 @@
 
 [Labs 02-logic](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/02-logic)
 
+[Labs 03-vivado](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado)
+
 ## VHDL Operators
 | **Operator** | **Description** |
 | :-: | :-- |
