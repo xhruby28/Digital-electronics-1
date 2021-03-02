@@ -188,7 +188,8 @@ Now select what you want to add or create.
 
 ![File](Images/addsources.png) 
 
-If you want to add file, it's simple. You need to find or download file, select what type of file it is (Constraints/Design sources/Simulation sources) and click on **Add Files** and select destination of the file.
+If you want to add file, it's simple. You need to find or download file, select what type of file it is (Constraints/Design sources/Simulation sources) 
+and click on **Add Files** and select destination of the file.
 If you want to create sources, testbench XDC constraints file, follow steps below. 
 
 #### 1. Creating source file
@@ -227,7 +228,7 @@ After that select **Create File**
 
 ![File](Images/createcon.png)
 
-Name constraints file, it's better to name the file according to the board you are using (For example if you are using board Nexys A7 50T, name the file Nexys-A7-50T.xdc)
+Name constraints file, it's better to name the file according to the board you are using (For example if you are using board Nexys A7 50T, name the file Nexys-A7-50T.xdc).
 
 ![File](Images/conselect.png)
 
@@ -236,7 +237,7 @@ Now if you are done, press **Finish**.
 ### Running simulation
 
 After you are done with the coding and want to run the simulation you can use **Flow Navigator** below the menu bar on the left side.
-Find **Simulation** here, click on **Run Simulation** and select **Run Behavioral Simulation**
+Find **Simulation** here, click on **Run Simulation** and select **Run Behavioral Simulation**.
 
 ![File](Images/flownav.png)
 
@@ -245,5 +246,5 @@ After a while you will see something like this screenshot.
 ![File](Images/sim.png)
 
 If you want to see full simulation press **F3** or click on **Run All**(**1**). 
-Center Simulation screen only on the graphs pressing by **Zoom Fit**(**2**)
+Center Simulation screen only on the graphs pressing by **Zoom Fit**(**2**).
 You can add another marker with **Add Marker**(**3**).
