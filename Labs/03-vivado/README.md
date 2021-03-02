@@ -1,5 +1,14 @@
 # 03-vivado
-## 1.   Preparation tasks
+
+## Content
+- [**1. Preparation tasks**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#1-preparation-tasks)
+- [**2. Two-bit wide 4-to-1 multiplexer**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#2-two-bit-wide-4-to-1-multiplexer)
+    - [VHDL architecture](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#vhdl-architecture-from-source-file-mux_2bit_4to1vhd)
+    - [VHDL stimulus process](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#vhdl-stimulus-process-from-testbench-file-tb_mux_2bit_4to1vhd)
+    - [Simulation screenshot](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#simulation-screenshot)
+- [**3. Two-bit wide 4-to-1 multiplexer**](
+
+## 1. Preparation tasks
 
 ### Connection table of 16 slide switches and 16 LEDs on Nexys A7 board
 
