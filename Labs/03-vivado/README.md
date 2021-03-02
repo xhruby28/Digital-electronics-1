@@ -230,7 +230,7 @@ Select **File type** to **VHDL** and name design after the project name and pres
 Now if you are done, press **Finish**.
 
 #### 2. Creating testbench file
-[UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 
 Select **Add or create simulation sources** -> **Next >**.                                   
 After that select **Create File**
