@@ -168,7 +168,7 @@ Open program Vivado. There is a **File** in the top bar: **File** -> **Project**
 
 ![File](Images/newproject.png)
 
-After that press **Next >** and select "RTL Project"  
+After that press **Next >** and select **RTL Project**  
 
 ![File](Images/rtl.png)
 
@@ -211,7 +211,7 @@ After that select **Create File**
 
 ![File](Images/createtb.png)
 
-Select **File type** to **VHDL** and name testbench *tb_design_name* and press **OK**. (For example if you have design name 2bit_comparator, name testbench tb_2bit_comparator.vhd)
+Select **File type** to **VHDL** and name testbench *tb_design_name* and press **OK**. (For example if you have design name 2bit_comparator, name testbench tb_2bit_comparator)
 
 ![File](Images/tbselect.png) 
  
