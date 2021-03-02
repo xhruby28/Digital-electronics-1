@@ -160,8 +160,22 @@ end architecture testbench;
 
 ## 3. Vivado tutorial
 ### Project creation
+Open program Vivado. There is a **File** in the top bar: **File** -> **Project** -> **New...** 
 
+![File](Images/newfile.png)
 
+**New...** will open new window. There press **Next >**. Then name the project and select folder, where will be located.
+
+![File](Images/newproject.png)
+
+After that press **Next >** and select "RTL Project"  
+
+![File](Images/rtl.png)
+
+After pressing **Next >**, you can skip **Add Sources** and **Add Constraints**, because you can create them later. 
+Now, you can choose **Default Part**. Select **Boards**, find and select board Nexys A7-50T. After that you can finsih creating project.  
+
+![File](Images/defaultboard.png)
 
 ### Adding source file
 
