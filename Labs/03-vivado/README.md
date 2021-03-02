@@ -177,16 +177,60 @@ Now, you can choose **Default Part**. Select **Boards**, find and select board N
 
 ![File](Images/defaultboard.png)
 
-### Adding source file
+### Adding sources
 
+After creating project, you can add sources. They have similar creation procedure.
+In the top bar select **File** -> **Add sources...**
 
+![File](Images/sources.png)
 
-### Adding testbench file
+Now select what you want to add or create.
 
+![File](Images/addsources.png) 
 
+If you want to add file, it's simple. You need to find or download file, select what type of file it is (Constraints/Design sources/Simulation sources) and click on **Add Files** and select destination of the file.
+If you want to create sources, testbench XDC constraints file, follow steps below. 
+
+#### 1. Creating source file
+
+Select **Add or create design sources** -> **Next >**. 
+After that select **Create File**
+
+![File](Images/createdesign.png)
+
+Select **File type** to **VHDL** and name design after the project name and press **OK**.
+ 
+![File](Images/designselect.png) 
+
+Now if you are done, press **Finish**.
+
+#### 2. Creating testbench file
+
+Select **Add or create simulation sources** -> **Next >**.                                   
+After that select **Create File**
+
+![File](Images/createtb.png)
+
+Select **File type** to **VHDL** and name testbench *tb_design_name* and press **OK**. (For example if you have design name 2bit_comparator, name testbench tb_2bit_comparator.vhd)
+
+![File](Images/tbselect.png) 
+ 
+Now if you are done, press **Finish**.
+
+#### 3. Creating XDC constraints file
+
+You can find XDC constraits [**here**](https://github.com/Digilent/digilent-xdc) and find your board. You can copy code and create constraints file or download and import the file.
+If you want to create constraints file follow steps below.
+
+Select **Add or create constraints** -> **Next >**.                                   
+After that select **Create File**
+
+![File](Images/createcon.png)
+
+Name constraints file, it's better to name the file according to the board you are using (For example if you are using board Nexys A7 50T, name the file Nexys-A7-50T.xdc)
+
+![File](Images/conselect.png)
+
+Now if you are done, press **Finish**.
 
 ### Running simulation
-
-
-
-### Adding XDC constraints file
