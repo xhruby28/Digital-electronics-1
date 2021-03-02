@@ -15,6 +15,7 @@
     - [Running simulation](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#running-simulation) 
 
 ## 1. Preparation tasks
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 
 ### Connection table of 16 slide switches and 16 LEDs on Nexys A7 board
 
@@ -38,6 +39,7 @@
 | SW15 | V10 | LED15 | V11 |
 
 ## 2. Two-bit wide 4-to-1 multiplexer
+- [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 
 ### VHDL architecture from source file mux_2bit_4to1.vhd
 ```vhdl
@@ -75,7 +77,7 @@ begin
 end architecture Behavioral;
 ```
 
-### VHDL stimulus process from testbench file tb_mux_2bit_4to1.vhd
+### VHDL stimulus process from testbench file tb_mux_2bit_4to1.vhd [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 ```vhdl
 
 library ieee;
