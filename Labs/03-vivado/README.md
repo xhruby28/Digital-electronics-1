@@ -5,8 +5,14 @@
 - [**2. Two-bit wide 4-to-1 multiplexer**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#2-two-bit-wide-4-to-1-multiplexer)
     - [VHDL architecture](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#vhdl-architecture-from-source-file-mux_2bit_4to1vhd)
     - [VHDL stimulus process](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#vhdl-stimulus-process-from-testbench-file-tb_mux_2bit_4to1vhd)
-    - [Simulation screenshot](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#simulation-screenshot)
-- [**3. Two-bit wide 4-to-1 multiplexer**](
+    - [Simulation screenshot](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#simulation-screenshot)   
+- [**3. Vivado tutorial**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#3-vivado-tutorial)
+    - [Project creation](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#project-creation)
+    - [Adding sources](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#adding-sources)
+        - [1. Creating source file](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#1-creating-source-file)
+        - [2. Creating testbench file](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#2-creating-testbench-file)
+        - [3. Creating XDC constraints file](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#3-creating-xdc-constraints-file)
+    - [Running simulation](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#running-simulation) 
 
 ## 1. Preparation tasks
 
