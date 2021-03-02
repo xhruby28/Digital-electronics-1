@@ -15,7 +15,7 @@
     - [Running simulation](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#running-simulation) 
 
 ## 1. Preparation tasks
-[](Images/UP-Arrow.jpg)[  UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
+[https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content](Images/UP-Arrow.jpg)[  UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado#content)
 
 ### Connection table of 16 slide switches and 16 LEDs on Nexys A7 board
 
