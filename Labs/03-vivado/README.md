@@ -234,3 +234,16 @@ Name constraints file, it's better to name the file according to the board you a
 Now if you are done, press **Finish**.
 
 ### Running simulation
+
+After you are done with the coding and want to run the simulation you can use **Flow Navigator** below the menu bar on the left side.
+Find **Simulation** here, click on **Run Simulation** and select **Run Behavioral Simulation**
+
+![File](Images/flownav.png)
+
+After a while you will see something like this screenshot.
+
+![File](Images/sim.png)
+
+If you want to see full simulation press **F3** or click on **Run All**(**1**). 
+Center Simulation screen only on the graphs pressing by **Zoom Fit**(**2**)
+You can add another marker with **Add Marker**(**3**).
