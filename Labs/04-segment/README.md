@@ -2,17 +2,17 @@
 
 ## Content
 - [**1. Preparation tasks**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#1-preparation-tasks)
-    - [Figure with connection of 7-segment displays on Nexys A7 board](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#figure-with-connection-of-7-segment-displays-on-nexys-a7-board)
-    - [Decoder truth table](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#decoder-truth-table)   
+    - [Figure with connection of 7-segment displays on Nexys A7 board](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#figure-with-connection-of-7-segment-displays-on-nexys-a7-board-up)
+    - [Decoder truth table](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#decoder-truth-table-up)   
 - [**2. Seven-segment display decoder**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#2-seven-segment-display-decoder)
-    - [VHDL architecture for `hex_7seg.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-architecture-for-hex_7segvhd)
-    - [VHDL stimulus process for `tb_hex_7seg.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-stimulus-process-for-tb_hex_7segvhd)
-    - [Simulation screenshot for `hex_7seg.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#simulation-screenshot-for-hex_7segvhd)   
-    - [VHDL code from `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-code-from-topvhd)
+    - [VHDL architecture for `hex_7seg.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-architecture-for-hex_7segvhd-up)
+    - [VHDL stimulus process for `tb_hex_7seg.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-stimulus-process-for-tb_hex_7segvhd-up)
+    - [Simulation screenshot for `hex_7seg.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#simulation-screenshot-for-hex_7segvhd-up)   
+    - [VHDL code from `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-code-from-topvhd-up)
 - [**3. LED(7:4) indicators**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#3-led74-indicators)
-    - [Truth table](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#truth-table)
-    - [VHDL code for LEDs(7:4) from `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-code-for-leds74-from-topvhd)
-    - [Simulation screenshot for `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#simulation-screenshot-for-topvhd) 
+    - [Truth table](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#truth-table-up)
+    - [VHDL code for LEDs(7:4) from `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-code-for-leds74-from-topvhd-up)
+    - [Simulation screenshot for `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#simulation-screenshot-for-topvhd-up) 
 
 ## 1. Preparation tasks
 
