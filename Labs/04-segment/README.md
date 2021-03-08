@@ -14,13 +14,13 @@
     - [VHDL code for LEDs(7:4) from `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-code-for-leds74-from-topvhd)
     - [Simulation screenshot for `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#simulation-screenshot-for-topvhd) 
 
-## 1. Preparation tasks [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content)
+## 1. Preparation tasks
 
-## Figure with connection of 7-segment displays on Nexys A7 board
+### Figure with connection of 7-segment displays on Nexys A7 board [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content)
 
 ![Figure for connections in 7-segment display](Images/7segconn.png)
 
-## Decoder truth table
+### Decoder truth table [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content)
 
 | Hex | Inputs | A | B | C | D | E | F | G |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -43,7 +43,7 @@
 
 ## 2. Seven-segment display decoder
 
-### VHDL architecture for `hex_7seg.vhd` 
+### VHDL architecture for `hex_7seg.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content)
 
 ```vhdl
 architecture Behavioral of hex_7seg is
@@ -94,7 +94,7 @@ begin
 end Behavioral;
 ```
  
-### VHDL stimulus process for `tb_hex_7seg.vhd`
+### VHDL stimulus process for `tb_hex_7seg.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content)
 
 ```vhdl
     p_stimulus : process
@@ -139,11 +139,11 @@ end Behavioral;
     end process p_stimulus;
 ```
 
-### Simulation screenshot for `hex_7seg.vhd`
+### Simulation screenshot for `hex_7seg.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content)
 
 ![Simulation screenshot for hex_7seg.vhd](Images/hex7seg_sim.png)
 
-### VHDL code from `top.vhd`
+### VHDL code from `top.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content)
 
 ```vhdl
 entity top is
@@ -185,9 +185,9 @@ begin
 end architecture behavioral;
 ```
 
-## 3. LED(7:4) indicators
+## 3. LED(7:4) indicators 
 
-### Truth table
+### Truth table [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content) 
 
 | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -208,7 +208,7 @@ end architecture behavioral;
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 0 |
 
-### VHDL code for LEDs(7:4) from `top.vhd` 
+### VHDL code for LEDs(7:4) from `top.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content) 
 
 ```vhdl
     -- Turn LED(4) on if input value is equal to 0, ie "0000"
@@ -228,6 +228,6 @@ end architecture behavioral;
                else '0';
 ```
 
-### Simulation screenshot for `top.vhd`
+### Simulation screenshot for `top.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content)
 
 ![Simulation screenshot for top.vhd](Images/LED_sim.png)
