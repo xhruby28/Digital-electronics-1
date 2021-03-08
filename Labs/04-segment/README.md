@@ -2,19 +2,20 @@
 
 ## Content
 - [**1. Preparation tasks**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#1-preparation-tasks)
-    - [Figure with connection of 7-segment displays on Nexys A7 board]()
-    - [Decoder truth table]()   
-- [**2. Seven-segment display decoder**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#Seven-segment-display-decoder)
-    - [VHDL architecture for `hex_7seg.vhd`]()
-    - [VHDL stimulus process for `tb_hex_7seg.vhd`]()
-    - [Simulation screenshot for `hex_7seg.vhd`]()   
-    - [VHDL code from `top.vhd`]()
-- [**3. LED(7:4) indicators**]()
-    - [Truth table]()
-    - [VHDL code for LEDs(7:4) from `top.vhd`]()
-    - [Simulation screenshot for `top.vhd`]() 
+    - [Figure with connection of 7-segment displays on Nexys A7 board](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#figure-with-connection-of-7-segment-displays-on-nexys-a7-board)
+    - [Decoder truth table](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#decoder-truth-table)   
+- [**2. Seven-segment display decoder**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#2-seven-segment-display-decoder)
+    - [VHDL architecture for `hex_7seg.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-architecture-for-hex_7segvhd)
+    - [VHDL stimulus process for `tb_hex_7seg.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-stimulus-process-for-tb_hex_7segvhd)
+    - [Simulation screenshot for `hex_7seg.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#simulation-screenshot-for-hex_7segvhd)   
+    - [VHDL code from `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-code-from-topvhd)
+- [**3. LED(7:4) indicators**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#3-led74-indicators)
+    - [Truth table](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#truth-table)
+    - [VHDL code for LEDs(7:4) from `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-code-for-leds74-from-topvhd)
+    - [Simulation screenshot for `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#simulation-screenshot-for-topvhd) 
 
 ## 1. Preparation tasks
+[**UP**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content)
 
 ## Figure with connection of 7-segment displays on Nexys A7 board
 
