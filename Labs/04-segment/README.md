@@ -14,7 +14,7 @@
     - [VHDL code for LEDs(7:4) from `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-code-for-leds74-from-topvhd)
     - [Simulation screenshot for `top.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#simulation-screenshot-for-topvhd) 
 
-## 1. Preparation tasks ## [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content)
+## 1. Preparation tasks [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#content)
 
 ## Figure with connection of 7-segment displays on Nexys A7 board
 
