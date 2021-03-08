@@ -8,6 +8,8 @@
 
 [Labs 03-vivado](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/03-vivado)
 
+[Labs 04-segment](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment)
+
 ## VHDL Operators
 | **Operator** | **Description** |
 | :-: | :-- |
