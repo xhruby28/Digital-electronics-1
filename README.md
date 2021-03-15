@@ -10,6 +10,8 @@
 
 [Labs 04-segment](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment)
 
+[Labs 05-counter](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter)
+
 ## VHDL Operators
 | **Operator** | **Description** |
 | :-: | :-- |
