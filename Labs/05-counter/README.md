@@ -13,6 +13,7 @@
 ### Table with connection of buttons on Nexys A7 board
 
 | **Push buttons** |
+| :-: |
 | **Button** | **Connection** |
 | :-: | :-: |
 | BTNL | P17 |
