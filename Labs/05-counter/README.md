@@ -13,6 +13,7 @@
     - [VHDL code from source file `top.vhd` for the 4-bit bidirectional counter](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#vhdl-code-from-source-file-topvhd-for-the-4-bit-bidirectional-counter-up)
     - [Image of top layer with 4-bit 4-bit bidirectional counter and a 16-bit counter](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#image-of-top-layer-with-4-bit-4-bit-bidirectional-counter-and-a-16-bit-counter-up)
 
+
 ## 1. Preparation tasks
 
 ### Figure with connection of buttons on Nexys A7 board [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#content)
