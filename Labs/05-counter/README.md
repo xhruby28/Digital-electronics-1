@@ -1,27 +1,35 @@
 # 05-counter
 
 ## Content
-
-
+- [**1. Preparation tasks**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#1-preparation-tasks)
+    - [Figure with connection of buttons on Nexys A7 board](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#figure-with-connection-of-buttons-on-nexys-a7-board-up)
+    - [Table with connection of buttons on Nexys A7 board](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#decoder-truth-table-up)
+    - [Calculated values](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#decoder-truth-table-up)
+- [**2. Bidirectional counter**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#2-seven-segment-display-decoder)
+    - [VHDL code of process `p_cnt_up_down`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-architecture-for-hex_7segvhd-up)
+    - [VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-stimulus-process-for-tb_hex_7segvhd-up)
+    - [Simulation screenshot](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#simulation-screenshot-for-hex_7segvhd-up)   
+- [**3. Top level**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#3-led74-indicators)
+    - [VHDL code from source file `top.vhd` for the 4-bit bidirectional counter](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#truth-table-up)
+    - [Image of top layer with 4-bit 4-bit bidirectional counter and a 16-bit counter](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-code-for-leds74-from-topvhd-up)
 
 ## 1. Preparation tasks
 
-### Figure with connection of buttons on Nexys A7 board
+### Figure with connection of buttons on Nexys A7 board [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#content)
 
 ![Figure for connection of buttons](Images/buttons.png)
 
-### Table with connection of buttons on Nexys A7 board
+### Table with connection of buttons on Nexys A7 board [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#content)
 
-| **Push buttons** ||
-| :-: | :-: |
-| **Button** | **Connection** |  
+| **Button** | **Connection** | 
+| :-: | :-: | 
 | BTNL | P17 |
 | BTNR | M17 |
 | BTNU | M18 |
 | BTND | P18 |
 | BTNC | N17 |
 
-### Calculated values
+### Calculated values [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#content)
 
 | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
 | :-: | :-: | :-: | :-: |
@@ -34,7 +42,7 @@
 
 ## 2. Bidirectional counter
 
-### VHDL code of process `p_cnt_up_down`
+### VHDL code of process `p_cnt_up_down` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#content)
 
 ```vhdl
     p_cnt_up_down : process(clk)
@@ -57,7 +65,7 @@
     end process p_cnt_up_down;
 ```
 
-### VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd`
+### VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#content)
 
 ```vhdl
     --------------------------------------------------------------------
@@ -100,13 +108,13 @@
     end process p_stimulus;
 ```
 
-### Simulation screenshot
+### Simulation screenshot [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#content)
 
 ![Simulation screenshot](Images/waveforms.png)
 
 ## 3. Top level
 
-### VHDL code from source file `top.vhd` for the 4-bit bidirectional counter
+### VHDL code from source file `top.vhd` for the 4-bit bidirectional counter [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#content)
 
 ```vhdl
   library IEEE;
@@ -190,6 +198,6 @@
   end architecture Behavioral;
 ```
 
-### Image of top layer with 4-bit 4-bit bidirectional counter and a 16-bit counter
+### Image of top layer with 4-bit 4-bit bidirectional counter and a 16-bit counter [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#content)
 
 ![Top layer](Images/schem4bit&16bit.png)
