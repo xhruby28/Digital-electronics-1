@@ -3,15 +3,15 @@
 ## Content
 - [**1. Preparation tasks**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#1-preparation-tasks)
     - [Figure with connection of buttons on Nexys A7 board](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#figure-with-connection-of-buttons-on-nexys-a7-board-up)
-    - [Table with connection of buttons on Nexys A7 board](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#decoder-truth-table-up)
-    - [Calculated values](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#decoder-truth-table-up)
-- [**2. Bidirectional counter**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#2-seven-segment-display-decoder)
-    - [VHDL code of process `p_cnt_up_down`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-architecture-for-hex_7segvhd-up)
-    - [VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-stimulus-process-for-tb_hex_7segvhd-up)
-    - [Simulation screenshot](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#simulation-screenshot-for-hex_7segvhd-up)   
-- [**3. Top level**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#3-led74-indicators)
-    - [VHDL code from source file `top.vhd` for the 4-bit bidirectional counter](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#truth-table-up)
-    - [Image of top layer with 4-bit 4-bit bidirectional counter and a 16-bit counter](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/04-segment#vhdl-code-for-leds74-from-topvhd-up)
+    - [Table with connection of buttons on Nexys A7 board](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#table-with-connection-of-buttons-on-nexys-a7-board-up)
+    - [Calculated values](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#calculated-values-up)
+- [**2. Bidirectional counter**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#2-bidirectional-counter)
+    - [VHDL code of process `p_cnt_up_down`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#vhdl-code-of-process-p_cnt_up_down-up)
+    - [VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#vhdl-reset-and-stimulus-processes-from-testbench-file-tb_cnt_up_downvhd-up)
+    - [Simulation screenshot](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#simulation-screenshot-up)   
+- [**3. Top level**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#3-top-level)
+    - [VHDL code from source file `top.vhd` for the 4-bit bidirectional counter](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#vhdl-code-from-source-file-topvhd-for-the-4-bit-bidirectional-counter-up)
+    - [Image of top layer with 4-bit 4-bit bidirectional counter and a 16-bit counter](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#image-of-top-layer-with-4-bit-4-bit-bidirectional-counter-and-a-16-bit-counter-up)
 
 ## 1. Preparation tasks
 
