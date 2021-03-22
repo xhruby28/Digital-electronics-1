@@ -12,6 +12,8 @@
 
 [Labs 05-counter](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter)
 
+[Labs 06-display_driver](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver)
+
 ## VHDL Operators
 | **Operator** | **Description** |
 | :-: | :-- |
