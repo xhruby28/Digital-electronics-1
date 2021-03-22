@@ -1,26 +1,26 @@
 # 06-display_driver
 
 ## Content
-- [**1. Preparation tasks**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#1-preparation-tasks)
-    - [Timing diagram figure for displaying value `3.142`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#figure-with-connection-of-buttons-on-nexys-a7-board-up)
-- [**2. Display driver**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#2-bidirectional-counter)
-    - [VHDL code of process `p_mux`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#vhdl-code-of-process-p_cnt_up_down-up)
-    - [VHDL testbench file `tb_driver_7seg_4digits`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#vhdl-reset-and-stimulus-processes-from-testbench-file-tb_cnt_up_downvhd-up)
-    - [Simulation screenshot](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#simulation-screenshot-up) 
-    - [VHDL architecture of the top layer]()   
-- [**3. Eight-digit driver**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#3-top-level)
-    - [Image of Eight-digit driver](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/05-counter#image-of-top-layer-with-4-bit-4-bit-bidirectional-counter-and-a-16-bit-counter-up)
+- [**1. Preparation tasks**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#1-preparation-tasks)
+    - [Timing diagram figure for displaying value `3.142`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#timing-diagram-figure-for-displaying-value-3142-up)
+- [**2. Display driver**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#2-display-driver)
+    - [VHDL code of process `p_mux`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#vhdl-code-of-the-process-p_mux-up)
+    - [VHDL testbench file `tb_driver_7seg_4digits`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#vhdl-testbench-file-tb_driver_7seg_4digits-up)
+    - [Simulation screenshot](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#simulation-screenshot-up) 
+    - [VHDL architecture of the top layer](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#vhdl-architecture-of-the-top-layer-up)   
+- [**3. Eight-digit driver**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#3-eight-digit-driver)
+    - [Image of Eight-digit driver](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#image-of-eight-digit-driver-up)
 
 
 ## 1. Preparation tasks
 
-### Timing diagram figure for displaying value `3.142` [UP](O6_URL)
+### Timing diagram figure for displaying value `3.142` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#content)
 
 ![Timing diagram figure](Images/wavedrom.png)
 
 ## 2. Display driver
 
-### VHDL code of the process `p_mux` [UP](O6_URL) 
+### VHDL code of the process `p_mux` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#content) 
 
 ```vhdl
     p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
@@ -50,7 +50,7 @@
     end process p_mux;
 ```
 
-### VHDL testbench file `tb_driver_7seg_4digits` [UP](O6_URL)
+### VHDL testbench file `tb_driver_7seg_4digits` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#content)
 
 ```vhdl
 library ieee;
@@ -167,11 +167,11 @@ begin
 end architecture testbench;
 ```
 
-### Simulation screenshot [UP](O6_URL)
+### Simulation screenshot [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#content)
 
 ![Simulation screenshot](Images/waveforms.png)
 
-### VHDL architecture of the top layer [UP](O6_URL)
+### VHDL architecture of the top layer [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#content)
 
 ```vhdl
 architecture Behavioral of top is
@@ -227,6 +227,6 @@ end architecture Behavioral;
 
 ## 3. Eight-digit driver
 
-### Image of Eight-digit driver [UP](O6_URL)
+### Image of Eight-digit driver [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver#content)
 
 ![Eight-digit driver schem](Images/8-dd_schem.png)
