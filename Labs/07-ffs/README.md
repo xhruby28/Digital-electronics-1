@@ -551,7 +551,7 @@ begin
     wait for 2 ns;
     
     assert ((s_rst = '0') and (s_j = '0') and (s_k = '0') and (s_q = '0') and (s_q_bar = '1'))
-    report ("'No change' failed for reset low, after clk rising when s_j = '0' and s_k = '0'") 
+    report "'No change' failed for reset low, after clk rising when s_j = '0' and s_k = '0'" 
         severity error;
     
     wait for 3 ns;
