@@ -8,7 +8,7 @@
     - [VHDL code of process `p_d_latch`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-code-of-process-p_d_latch-up)
     - [VHDL reset and stimulus processes from the testbench `tb_d_latch.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-reset-and-stimulus-processes-from-the-testbench-tb_d_latchvhd-up)
     - [Simulation screenshot](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#simulation-screenshot-up)  
-- [**3. Flip-flops ](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#3-flip-flops)
+- [**3. Flip-flops**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#3-flip-flops)
     - [D type flip-flop with an async reset](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#--d-type-flip-flop-with-an-async-reset)
         - [VHDL code of process `p_d_ff_arst`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-code-of-process-p_d_ff_arst-up)
         - [VHDL clock, reset and stimulus processes from the testbench `tb_d_ff_arst.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-clock-reset-and-stimulus-processes-from-the-testbench-tb_d_ff_arstvhd-up)
