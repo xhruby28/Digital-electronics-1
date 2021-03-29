@@ -14,6 +14,8 @@
 
 [Labs 06-display_driver](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/06-display_driver)
 
+[Labs 07-ffs](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs)
+
 ## VHDL Operators
 | **Operator** | **Description** |
 | :-: | :-- |
