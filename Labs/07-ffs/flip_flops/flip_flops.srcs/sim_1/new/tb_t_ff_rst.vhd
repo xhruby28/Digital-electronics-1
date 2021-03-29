@@ -61,7 +61,7 @@ begin
         end loop;
         wait;
     end process p_clk_gen;
-
+    
     --------------------------------------------------------------------
     -- Reset generation process
     --------------------------------------------------------------------
@@ -73,7 +73,7 @@ begin
         -- Reset activated
         s_rst <= '1';
         wait for 13 ns;
-
+    
         s_rst <= '0';
         wait for 17 ns;
         
@@ -96,28 +96,32 @@ begin
         wait for 42 ns;
         
         assert ((s_rst = '0') and (s_t = '0') and (s_q = '0') and (s_q_bar = '1'))
-        report "Test of type 'no change' failed for reset low, after clk rising when s_t = '0'" severity error;
+        report "'No change' failed for reset low, after clk rising when s_t = '0'" 
+            severity error;
         
         wait for 3 ns;
         s_t <= '1';
         wait for 2 ns;
         
         assert ((s_rst = '0') and (s_t = '1') and (s_q = '1') and (s_q_bar = '0'))
-        report "Test of type 'toggle' failed for reset low, after clk rising when s_t = '1'" severity error;
+        report "'Toggle' failed for reset low, after clk rising when s_t = '1'" 
+            severity error;
         
         wait for 3 ns;
         s_t <= '0';
         wait for 2 ns;
         
         assert ((s_rst = '0') and (s_t = '0') and (s_q = '1') and (s_q_bar = '0'))
-        report "Test of type 'no change' failed for reset low, before clk rising when s_t = '0'" severity error;
+        report "'No change' failed for reset low, before clk rising when s_t = '0'" 
+            severity error;
         
         wait for 3 ns;
         s_t <= '1';
         wait for 3 ns;
         
         assert ((s_rst = '0') and (s_t = '1') and (s_q = '0') and (s_q_bar = '1'))
-        report "Test of type 'toggle' failed for reset low, after clk rising when s_t = '1'" severity error;
+        report "'Toggle' failed for reset low, after clk rising when s_t = '1'" 
+            severity error;
         
         wait for 2 ns;
         

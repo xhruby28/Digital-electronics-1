@@ -53,7 +53,7 @@ begin
          -- Reset activated
          s_arst <= '1';
          wait for 50 ns;
-
+    
          --Reset deactivated
          s_arst <= '0';
          wait for 85 ns;
@@ -61,7 +61,7 @@ begin
          s_arst <= '1';
          wait;
      end process p_reset_gen;
-
+    
     --------------------------------------------------------------------
     -- Data generation process
     --------------------------------------------------------------------
@@ -80,7 +80,8 @@ begin
         wait for 5 ns;
         
         assert ((s_arst = '0') and (s_en = '0') and (s_q = 'U') and (s_q_bar = 'U'))
-        report "Test failed for reset low, en low when s_d = '0'" severity error;
+        report "Test failed for reset low, en low when s_d = '0'" 
+            severity error;
         
         wait for 5 ns;
         s_d  <= '1';
@@ -91,7 +92,8 @@ begin
         wait for 5 ns;
         
         assert ((s_arst = '1') and (s_en = '0') and (s_q = '0') and (s_q_bar = '1'))
-        report "Test failed for reset high, en low when s_d = '1'" severity error;
+        report "Test failed for reset high, en low when s_d = '1'" 
+            severity error;
         
         wait for 5 ns; 
         
@@ -110,7 +112,8 @@ begin
         wait for 5 ns;
         
         assert ((s_arst = '0') and (s_en = '1') and (s_q = '0') and (s_q_bar = '1'))
-        report "Test failed for reset low, en high when s_d = '0'" severity error;
+        report "Test failed for reset low, en high when s_d = '0'" 
+            severity error;
         
         wait for 5 ns;    
         
@@ -123,7 +126,8 @@ begin
         wait for 5 ns;
         
         assert ((s_arst = '0') and (s_en = '0') and (s_q = '0') and (s_q_bar = '1'))
-        report "Test failed for reset low, en low when s_d = '1'" severity error;
+        report "Test failed for reset low, en low when s_d = '1'" 
+            severity error;
         
         wait for 5 ns;
         s_d  <= '0';
@@ -140,14 +144,16 @@ begin
         wait for 5 ns;
         
         assert ((s_arst = '0') and (s_en = '1') and (s_q = '0') and (s_q_bar = '1'))
-        report "Test failed for reset low, en high when s_d = '0'" severity error;
+        report "Test failed for reset low, en high when s_d = '0'" 
+            severity error;
         
         wait for 5 ns;
         s_d  <= '1';
         wait for 6 ns;
         
         assert ((s_arst = '1') and (s_en = '1') and (s_q = '0') and (s_q_bar = '1'))
-        report "Test failed for reset high, en high when s_d = '1'" severity error;
+        report "Test failed for reset high, en high when s_d = '1'" 
+            severity error;
         
         wait for 4 ns;
         s_d  <= '0';
@@ -156,9 +162,7 @@ begin
         wait for 10 ns;
         s_d  <= '0';
         wait for 10 ns;
-        
-        
-
+    
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;

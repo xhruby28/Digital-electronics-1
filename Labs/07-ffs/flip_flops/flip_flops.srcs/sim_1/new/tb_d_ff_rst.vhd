@@ -60,7 +60,7 @@ begin
         end loop;
         wait;
     end process p_clk_gen;
-
+    
     --------------------------------------------------------------------
     -- Reset generation process
     --------------------------------------------------------------------
@@ -72,7 +72,7 @@ begin
         -- Reset activated
         s_rst <= '1';
         wait for 13 ns;
-
+    
         s_rst <= '0';
         wait for 17 ns;
         
@@ -89,7 +89,7 @@ begin
     p_stimulus : process
     begin
         report "Stimulus process started" severity note;
-
+    
         s_d <= '0';
         
         wait for 14 ns;
@@ -97,7 +97,8 @@ begin
         wait for 5 ns;
         
         assert ((s_rst = '0') and (s_q = '1') and (s_q_bar = '0'))
-        report "Test failed for reset low, after clk rising when s_d = '1'" severity error;
+        report "Test failed for reset low, after clk rising when s_d = '1'" 
+            severity error;
         
         wait for 5 ns; 
         s_d <= '0';
@@ -105,7 +106,8 @@ begin
         wait for 5 ns;
         
         assert ((s_rst = '1') and (s_q = '0') and (s_q_bar = '1'))
-        report "Test failed for reset high, after clk rising when s_d = '0'" severity error;
+        report "Test failed for reset high, after clk rising when s_d = '0'" 
+            severity error;
         
         wait for 5 ns; 
         
@@ -126,7 +128,8 @@ begin
         wait for 8 ns;
         
         assert ((s_rst = '0') and (s_q = '1') and (s_q_bar = '0'))
-        report "Test failed for reset high, before clk rising when s_d = '1'" severity error;
+        report "Test failed for reset high, before clk rising when s_d = '1'" 
+            severity error;
         
         wait for 2 ns;
         s_d <= '0';
@@ -134,7 +137,7 @@ begin
         s_d <= '1';
         wait for 10 ns;
         s_d <= '0';
-
+    
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;

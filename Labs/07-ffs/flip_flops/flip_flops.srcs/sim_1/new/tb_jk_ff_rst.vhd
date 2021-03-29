@@ -62,7 +62,7 @@ begin
         end loop;
         wait;
     end process p_clk_gen;
-
+    
     --------------------------------------------------------------------
     -- Reset generation process
     --------------------------------------------------------------------
@@ -74,7 +74,7 @@ begin
         -- Reset activated
         s_rst <= '1';
         wait for 13 ns;
-
+    
         s_rst <= '0';
         wait for 17 ns;
         
@@ -91,7 +91,7 @@ begin
     p_stimulus : process
     begin
         report "Stimulus process started" severity note;
-
+    
         s_j <= '0';
         s_k <= '0';
         
@@ -101,7 +101,8 @@ begin
         wait for 2 ns;
         
         assert ((s_rst = '0') and (s_j = '0') and (s_k = '0') and (s_q = '0') and (s_q_bar = '1'))
-        report "Test of type 'no change' failed for reset low, after clk rising when s_j = '0' and s_k = '0'" severity error;
+        report ("'No change' failed for reset low, after clk rising when s_j = '0' and s_k = '0'") 
+            severity error;
         
         wait for 3 ns;
         s_j <= '1';
@@ -109,7 +110,8 @@ begin
         wait for 2 ns;
         
         assert ((s_rst = '0') and (s_j = '1') and (s_k = '0') and (s_q = '1') and (s_q_bar = '0'))
-        report "Test of type 'set' failed for reset low, after clk rising when s_j = '1' and s_k = '0'" severity error;
+        report "'Set' failed for reset low, after clk rising when s_j = '1' and s_k = '0'" 
+            severity error;
         
         wait for 3 ns;
         s_j <= '0';
@@ -117,7 +119,8 @@ begin
         wait for 2 ns;
         
         assert ((s_rst = '0') and (s_j = '0') and (s_k = '1') and (s_q = '1') and (s_q_bar = '0'))
-        report "Test of type 'reset' failed for reset low, before clk rising when s_j = '0' and s_k = '1'" severity error;
+        report "'Reset' failed for reset low, before clk rising when s_j = '0' and s_k = '1'" 
+            severity error;
         
         wait for 3 ns;
         s_j <= '1';
@@ -125,7 +128,8 @@ begin
         wait for 2 ns;
         
         assert ((s_rst = '0') and (s_j = '1') and (s_k = '1') and (s_q = '0') and (s_q_bar = '1'))
-        report "Test of type 'toggle' failed for reset low, after clk rising when s_j = '1' and s_k = '1'" severity error;
+        report "'Toggle' failed for reset low, after clk rising when s_j = '1' and s_k = '1'" 
+            severity error;
         
         wait for 3 ns;
         
@@ -141,7 +145,7 @@ begin
         wait for 5 ns;
         s_j <= '1';
         s_k <= '1';
-
+    
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
