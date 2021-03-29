@@ -1,70 +1,70 @@
-# 06-ffs
+# 07-ffs
 
 ## Content
-- [**1. Preparation tasks**]()
-    - [Characteristic equations]() 
-    - [Tables for D, JK, T flip-flops]()
-- [**2. D latch**]() 
-    - [VHDL code of process `p_d_latch`]()
-    - [VHDL reset and stimulus processes from the testbench `tb_d_latch.vhd`]()
-    - [Simulation screenshot]()  
-- [**3. Flip-flops ]()
-    - [D type flip-flop with an async reset]()
-        - [VHDL code of process `p_d_ff_arst`]()
-        - [VHDL clock, reset and stimulus processes from the testbench `tb_d_ff_arst.vhd`]()
-        - [Simulation screenshot of D type flip-flop with an async reset]() 
-    - [VHDL code of process `p_mux`]()
-        - [VHDL code of process `p_d_ff_rst`]()
-        - [VHDL clock, reset and stimulus processes from the testbench `tb_d_ff_rst.vhd`]()
-        - [Simulation screenshot of D type flip-flop with an sync reset]() 
-    - [VHDL testbench file `tb_driver_7seg_4digits`]()
-        - [VHDL code of process `p_jk_ff_rst`]()
-        - [VHDL clock, reset and stimulus processes from the testbench `tb_jk_ff_rst.vhd`]()
-        - [Simulation screenshot of JK type flip-flop with a sync reset]() 
-    - [Simulation screenshot]() 
-        - [VHDL code of process `p_t_ff_rst`]()
-        - [VHDL clock, reset and stimulus processes from the testbench `tb_t_ff_rst.vhd`]()
-        - [Simulation screenshot of T type flip-flop with a sync reset]() 
-- [**4. Shift register**]()
-    - [Shift register schematic]()
+- [**1. Preparation tasks**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#1-preparation-tasks)
+    - [Characteristic equations](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#characteristic-equations-up) 
+    - [Tables for D, JK, T flip-flops](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#tables-for-d-jk-t-flip-flops-up)
+- [**2. D latch**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#2-d-latch) 
+    - [VHDL code of process `p_d_latch`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-code-of-process-p_d_latch-up)
+    - [VHDL reset and stimulus processes from the testbench `tb_d_latch.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-reset-and-stimulus-processes-from-the-testbench-tb_d_latchvhd-up)
+    - [Simulation screenshot](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#simulation-screenshot-up)  
+- [**3. Flip-flops ](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#3-flip-flops)
+    - [D type flip-flop with an async reset](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#--d-type-flip-flop-with-an-async-reset)
+        - [VHDL code of process `p_d_ff_arst`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-code-of-process-p_d_ff_arst-up)
+        - [VHDL clock, reset and stimulus processes from the testbench `tb_d_ff_arst.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-clock-reset-and-stimulus-processes-from-the-testbench-tb_d_ff_arstvhd-up)
+        - [Simulation screenshot of D type flip-flop with an async reset](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#simulation-screenshot-of-d-type-flip-flop-with-an-async-reset-up) 
+    - [D type flip-flop with a sync reset](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#--d-type-flip-flop-with-a-sync-reset)
+        - [VHDL code of process `p_d_ff_rst`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-code-of-process-p_d_ff_rst-up)
+        - [VHDL clock, reset and stimulus processes from the testbench `tb_d_ff_rst.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-clock-reset-and-stimulus-processes-from-the-testbench-tb_d_ff_rstvhd-up)
+        - [Simulation screenshot of D type flip-flop with an sync reset](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#simulation-screenshot-of-d-type-flip-flop-with-a-sync-reset-up) 
+    - [JK type flip-flop with a sync reset](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#--jk-type-flip-flop-with-a-sync-reset)
+        - [VHDL code of process `p_jk_ff_rst`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-code-of-process-p_jk_ff_rst-up)
+        - [VHDL clock, reset and stimulus processes from the testbench `tb_jk_ff_rst.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-clock-reset-and-stimulus-processes-from-the-testbench-tb_jk_ff_rstvhd-up)
+        - [Simulation screenshot of JK type flip-flop with a sync reset](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#simulation-screenshot-of-jk-type-flip-flop-with-a-sync-reset-up) 
+    - [T type flip-flop with a sync reset](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#--t-type-flip-flop-with-a-sync-reset) 
+        - [VHDL code of process `p_t_ff_rst`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-code-of-process-p_t_ff_rst-up)
+        - [VHDL clock, reset and stimulus processes from the testbench `tb_t_ff_rst.vhd`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#vhdl-clock-reset-and-stimulus-processes-from-the-testbench-tb_t_ff_rstvhd-up)
+        - [Simulation screenshot of T type flip-flop with a sync reset](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#simulation-screenshot-of-t-type-flip-flop-with-a-sync-reset-up) 
+- [**4. Shift register**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#4-shift-register)
+    - [Shift register schematic](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#shift-register-schematic-up)
 
 
 ## 1. Preparation tasks
 
-### Characteristic equations [UP](Un_das_nope)
+### Characteristic equations [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ![Characteristic equations](Images/CodeCogsEqn.gif)
 
-### Tables for D, JK, T flip-flops [UP](Un_das_nope)
+### Tables for D, JK, T flip-flops [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-- |
-| ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | Sampled and stored |
-| ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | Sampled and stored |
-| ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | Sampled and stored |
-| ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | Sampled and stored |
+| ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | Sampled and stored |
+| ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | Sampled and stored |
+| ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Sampled and stored |
+| ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | Sampled and stored |
 
 | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-: | :-- |
-| ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | 0 | No change |
-| ![rising](images/eq_uparrow.png) | 0 | 0 | 1 | 1 | No change |
-| ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | 0 | Reset |
-| ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | 0 | Reset |
-| ![rising](images/eq_uparrow.png) | 1 | 0 | 0 | 1 | Set |
-| ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | 1 | Set |
-| ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | 1 | Toggle (=invert) |
-| ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | 0 | Toggle (=invert) |
+| ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | 0 | No change |
+| ![rising](Images/eq_uparrow.png) | 0 | 0 | 1 | 1 | No change |
+| ![rising](Images/eq_uparrow.png) | 0 | 1 | 0 | 0 | Reset |
+| ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 | 0 | Reset |
+| ![rising](Images/eq_uparrow.png) | 1 | 0 | 0 | 1 | Set |
+| ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | 1 | Set |
+| ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | 1 | Toggle (=invert) |
+| ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | 0 | Toggle (=invert) |
 
 | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
 | :-: | :-: | :-: | :-: | :-- |
-| ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | No change |
-| ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | No change |
-| ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | Toggle (=invert) |
-| ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | Toggle (=invert) |
+| ![rising](Images/eq_uparrow.png) | 0 | 0 | 0 | No change |
+| ![rising](Images/eq_uparrow.png) | 0 | 1 | 1 | No change |
+| ![rising](Images/eq_uparrow.png) | 1 | 0 | 1 | Toggle (=invert) |
+| ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | Toggle (=invert) |
    
 ## 2. D latch
 
-### VHDL code of process `p_d_latch` [UP](Un_das_nope)
+### VHDL code of process `p_d_latch` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ```vhdl
     p_d_latch : process(d, arst, en)
@@ -81,7 +81,7 @@
     end process p_d_latch;
 ```
 
-### VHDL reset and stimulus processes from the testbench `tb_d_latch.vhd` [UP](Un_das_nope)
+### VHDL reset and stimulus processes from the testbench `tb_d_latch.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ```vhdl
     --------------------------------------------------------------------
@@ -204,7 +204,7 @@
     end process p_stimulus;
 ```
 
-### Simulation screenshot [UP](Un_das_nope)
+### Simulation screenshot [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ![D latch](Images/d_latch.png) 
 
@@ -212,7 +212,7 @@
 
 ## - D type flip-flop with an async reset
 
-### VHDL code of process `p_d_ff_arst` [UP](Un_das_nope)
+### VHDL code of process `p_d_ff_arst` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ```vhdl
     p_d_ff_arst : process (clk, arst)
@@ -229,7 +229,7 @@
     end process p_d_ff_arst;
 ```
 
-### VHDL clock, reset and stimulus processes from the testbench `tb_d_ff_arst.vhd` [UP](Un_das_nope)
+### VHDL clock, reset and stimulus processes from the testbench `tb_d_ff_arst.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ```vhdl
     -------------------------------------------------------------------
@@ -325,13 +325,13 @@
     end process p_stimulus;
 ```
 
-### Simulation screenshot of D type flip-flop with an async reset [UP](Un_das_nope) 
+### Simulation screenshot of D type flip-flop with an async reset [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content) 
 
 ![D type flip-flop with an async reset](Images/d_ff_arst.png) 
 
 ## - D type flip-flop with a sync reset   
 
-### VHDL code of process `p_d_ff_rst` [UP](Un_das_nope)
+### VHDL code of process `p_d_ff_rst` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ```vhdl
     p_d_ff_rst : process (clk, rst)
@@ -350,7 +350,7 @@
     end process p_d_ff_rst
 ```
 
-### VHDL clock, reset and stimulus processes from the testbench `tb_d_ff_rst.vhd` [UP](Un_das_nope)
+### VHDL clock, reset and stimulus processes from the testbench `tb_d_ff_rst.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ```vhdl
     -------------------------------------------------------------------
@@ -446,13 +446,13 @@
     end process p_stimulus;
 ```
 
-### Simulation screenshot of D type flip-flop with a sync reset [UP](Un_das_nope)
+### Simulation screenshot of D type flip-flop with a sync reset [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ![D type flip-flop with an sync reset](Images/d_ff_rst.png) 
 
 ## - JK type flip-flop with a sync reset 
 
-### VHDL code of process `p_jk_ff_rst` [UP](Un_das_nope)
+### VHDL code of process `p_jk_ff_rst` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ```vhdl
     p_jk_ff_rst : process (clk)
@@ -484,7 +484,7 @@
     q_bar <= not s_q;
 ```
 
-### VHDL clock, reset and stimulus processes from the testbench `tb_jk_ff_rst.vhd` [UP](Un_das_nope)
+### VHDL clock, reset and stimulus processes from the testbench `tb_jk_ff_rst.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ```vhdl
 -------------------------------------------------------------------
@@ -585,13 +585,13 @@
     end process p_stimulus;
 ```
 
-### Simulation screenshot of JK type flip-flop with a sync reset [UP](Un_das_nope) 
+### Simulation screenshot of JK type flip-flop with a sync reset [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content) 
 
 ![JK type flip-flop with a sync reset](Images/jk_ff_rst.png) 
 
 ## - T type flip-flop with a sync reset  
 
-### VHDL code of process `p_t_ff_rst` [UP](Un_das_nope) 
+### VHDL code of process `p_t_ff_rst` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content) 
 
 ```vhdl
     p_t_ff_rst : process (clk)
@@ -612,7 +612,7 @@
     q_bar <= not s_q;
 ```
 
-### VHDL clock, reset and stimulus processes from the testbench `tb_t_ff_rst.vhd` [UP](Un_das_nope) 
+### VHDL clock, reset and stimulus processes from the testbench `tb_t_ff_rst.vhd` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content) 
 
 ```vhdl
     -------------------------------------------------------------------
@@ -702,12 +702,12 @@
     end process p_stimulus;
 ```
 
-### Simulation screenshot of T type flip-flop with a sync reset [UP](Un_das_nope)
+### Simulation screenshot of T type flip-flop with a sync reset [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ![T type flip-flop with a sync reset](Images/t_ff_rst.png) 
 
 ## 4. Shift register 
 
-### Shift register schematic [UP](Un_das_nope)
+### Shift register schematic [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs#content)
 
 ![Shift register schematic](Images/shift_schem.png) 
