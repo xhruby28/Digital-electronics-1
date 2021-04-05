@@ -16,6 +16,8 @@
 
 [Labs 07-ffs](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/07-ffs)
 
+[Labs 08-traffic_lights](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights)
+
 ## VHDL Operators
 | **Operator** | **Description** |
 | :-: | :-- |
