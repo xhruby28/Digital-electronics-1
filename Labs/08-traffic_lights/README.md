@@ -2,18 +2,18 @@
 
 ## Content
 - [**1. Preparation tasks**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#1-preparation-tasks)
-    - [State table]() 
-    - [Figure with connection of RGB LEDs on Nexys A7 board]()
-    - [Table with color settings]()
-- [**2. Traffic light controller**]() 
-    - [State diagram]()
-    - [HDL code of sequential process `p_traffic_fsm`]()
-    - [VHDL code of combinatorial process `p_output_fsm`]() 
-    - [Simulation screenshots]()  
-- [**3. Flip-flops**]()
-    - [State table]()
-    - [State diagram]()
-    - [VHDL code of sequential process `p_smart_traffic_fsm`]()
+    - [State table](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#state-table-up) 
+    - [Figure with connection of RGB LEDs on Nexys A7 board](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#figure-with-connection-of-rgb-leds-on-nexys-a7-board-up)
+    - [Table with color settings](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#table-with-color-settings-up)
+- [**2. Traffic light controller**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#2-traffic-light-controller) 
+    - [State diagram](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#state-diagram-up)
+    - [HDL code of sequential process `p_traffic_fsm`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#vhdl-code-of-sequential-process-p_traffic_fsm-up)
+    - [VHDL code of combinatorial process `p_output_fsm`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#vhdl-code-of-combinatorial-process-p_output_fsm-up) 
+    - [Simulation screenshots](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#simulation-screenshots-up)  
+- [**3. Flip-flops**](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#3-smart-controller)
+    - [State table](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#state-table-up-1)
+    - [State diagram](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#state-diagram-up-1)
+    - [VHDL code of sequential process `p_smart_traffic_fsm`](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#vhdl-code-of-sequential-process-p_smart_traffic_fsm-up)
 
 ## 1. Preparation tasks
 
