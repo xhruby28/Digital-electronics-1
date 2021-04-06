@@ -186,7 +186,11 @@ end process p_output_fsm;
 
 ### State table [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#content)
 
-
+| **State** | **Lights west** | **Lights south** | **Delay** | | **Cars from both directions** | **Car from north** | **Car from east** | **No cars** |
+| `WEST_GO` | Green | Red | min 3 sec | | `WEST_WAIT` | `WEST_WAIT` | `WEST_GO` | `WEST_GO` |
+| `WEST_WAIT` | Yellow | Red | 0,5 sec | | `SOUTH_GO` | `SOUTH_GO` | `SOUTH_GO` | `SOUTH_GO` |
+| `SOUTH_GO` | Red | Green | min 3 sec | | `SOUTH_GO` | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` |
+| `SOUTH_WAIT` | Red | Yellow | 0,5 sec | | `WEST_GO` | `WEST_GO` | `WEST_GO` | `WEST_GO` |
 
 ### State diagram [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#content)
 
@@ -195,5 +199,66 @@ end process p_output_fsm;
 ### VHDL code of sequential process `p_smart_traffic_fsm` [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#content)
 
 ```vhdl
-
+p_smart_traffic_fsm : process(clk)
+begin
+    if rising_edge(clk) then                                      
+        if (reset = '1') then       -- Synchronous reset          
+            s_state <= WEST_GO ;    -- Set initial state          
+            s_cnt   <= c_ZERO;      -- Clear all bits             
+                                                                  
+        elsif (s_en = '1') then                                                                   
+            case s_state is
+                when WEST_GO =>
+                    if (s_cnt < c_DELAY_3SEC) then
+                        s_cnt <= s_cnt + 1;
+                    elsif (south_i = '1' and west_i = '1') then
+                        -- Priority from the right 
+                        s_state <= WEST_WAIT;
+                        s_cnt   <= c_ZERO;
+                    elsif (south_i = '1') then
+                        s_state <= WEST_WAIT;
+                        s_cnt   <= c_ZERO;
+                    elsif (west_i = '1') then
+                        s_state <= WEST_GO;
+                        s_cnt   <= c_ZERO;
+                    end if;
+                    
+                when WEST_WAIT =>
+                    if (s_cnt < c_DELAY_05SEC) then
+                        s_cnt <= s_cnt + 1;
+                    else
+                        s_state <= SOUTH_GO;
+                        s_cnt   <= c_ZERO;
+                    end if;
+                    
+                when SOUTH_GO =>
+                    if (s_cnt < c_DELAY_3SEC) then
+                        s_cnt <= s_cnt + 1;
+                    elsif (south_i = '1' and west_i = '1') then
+                        -- Priority from the right 
+                        s_state <= SOUTH_GO;
+                        s_cnt   <= c_ZERO;
+                    elsif (south_i = '1') then
+                        s_state <= SOUTH_GO;
+                        s_cnt   <= c_ZERO;
+                    elsif (west_i = '1') then
+                        s_state <= SOUTH_WAIT;
+                        s_cnt   <= c_ZERO;
+                    end if;
+                    
+                when SOUTH_WAIT =>
+                    if (s_cnt < c_DELAY_05SEC) then
+                        s_cnt <= s_cnt + 1;
+                    else
+                        s_state <= WEST_GO;
+                        s_cnt   <= c_ZERO;
+                    end if;
+                                        
+                when others =>
+                    s_state <= SOUTH_GO;
+                    
+            end case;                   
+        end if; -- Synchronous reset    
+    end if; -- Rising edge                        
+end process p_smart_traffic_fsm;
 ```
