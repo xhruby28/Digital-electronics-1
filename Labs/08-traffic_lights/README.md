@@ -186,15 +186,12 @@ end process p_output_fsm;
 
 ### State table [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#content)
 
-| **State** | **Lights west** | **Lights south** | **Delay** | **Cars from both directions** | **Car from north** | **Car from east** | **No cars** |
-
-| `WEST_GO` | Green | Red | min 3 sec | `WEST_WAIT` | `WEST_WAIT` | `WEST_GO` | `WEST_GO` |
-
-| `WEST_WAIT` | Yellow | Red | 0,5 sec | `SOUTH_GO` | `SOUTH_GO` | `SOUTH_GO` | `SOUTH_GO` |
-
-| `SOUTH_GO` | Red | Green | min 3 sec | `SOUTH_GO` | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` |
-
-| `SOUTH_WAIT` | Red | Yellow | 0,5 sec | `WEST_GO` | `WEST_GO` | `WEST_GO` | `WEST_GO` |
+| **State** | **Lights west** | **Lights south** | **Delay** | | **Cars from both directions** | **Car from north** | **Car from east** | **No cars** |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| `WEST_GO` | Green | Red | min 3 sec | | `WEST_WAIT` | `WEST_WAIT` | `WEST_GO` | `WEST_GO` |
+| `WEST_WAIT` | Yellow | Red | 0,5 sec | | `SOUTH_GO` | `SOUTH_GO` | `SOUTH_GO` | `SOUTH_GO` |
+| `SOUTH_GO` | Red | Green | min 3 sec | | `SOUTH_GO` | `SOUTH_GO` | `WEST_GO` | `SOUTH_GO` |
+| `SOUTH_WAIT` | Red | Yellow | 0,5 sec | | `WEST_GO` | `WEST_GO` | `WEST_GO` | `WEST_GO` |
 
 ### State diagram [UP](https://github.com/xhruby28/Digital-electronics-1/tree/main/Labs/08-traffic_lights#content)
 
