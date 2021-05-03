@@ -27,10 +27,11 @@ rychlost, průměrná rychlost a ujetá vzdálenost jsme zvolili LCD displej.
 
 **Jednotlivé body projektu:**
 
-*- Dvě tlačítka: - Prvním tlačítkem (btn0) se dá vybrat nastavení poloměru kola a mód zobrazení displeje*
-*                  Mód 0 - Nastavení velikosti kola; Mód 1 - Zobrazení rychlosti; *
-*                  Mód 2 - Zobrazení průměrné rychlosti; Mód 3 - Zobrazení ujeté vzdálenosti*
-*                - Druhým tlačítkem (btn1) se dá vybrat poloměr kola, kdy kolo se dá vybrat jen v případě, že je vybraný mód 0*
+*- Dvě tlačítka: 
+*   - Prvním tlačítkem (btn0) se dá vybrat nastavení poloměru kola a mód zobrazení displeje* 
+*     Mód 0 - Nastavení velikosti kola; Mód 1 - Zobrazení rychlosti; *
+*     Mód 2 - Zobrazení průměrné rychlosti; Mód 3 - Zobrazení ujeté vzdálenosti*
+*   - Druhým tlačítkem (btn1) se dá vybrat poloměr kola, kdy kolo se dá vybrat jen v případě, že je vybraný mód 0*
                 
 *- V případě, že uživatel chce resetovat data a začít znovu (neresetuje se nastavený mód a kola) stačí držet obě tlačítka*
 *  po dobu dvou a více sekund, resetuje se ujetá vzdálenost a průměrná rychlost.*
