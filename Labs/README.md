@@ -26,6 +26,7 @@ Cílem projektu je vytvořit konzoli pro rotoped či kolo s hallovou sondou. Pro
 rychlost, průměrná rychlost a ujetá vzdálenost jsme zvolili LCD displej.
 
 **Jednotlivé body projektu:**
+
 *- Dvě tlačítka: - Prvním tlačítkem (btn0) se dá vybrat nastavení poloměru kola a mód zobrazení displeje*
 *                  Mód 0 - Nastavení velikosti kola; Mód 1 - Zobrazení rychlosti;     -
 *                  Mód 2 - Zobrazení průměrné rychlosti; Mód 3 - Zobrazení ujeté vzdálenosti*
