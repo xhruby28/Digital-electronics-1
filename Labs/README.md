@@ -1,66 +1,66 @@
-# Projekt-DE1-3
+Ôªø# Projekt-DE1-3
 
-**Co to mus° umÿt?**
+**Co to mus√≠ umƒõt?**
 
-*- AlespoÂ 2 tlaü°tka (jedno, kterÇ bude pot˝eba, druhÇ jako rezerva pro dalÁ° funkce)*
+*- Alespo≈à 2 tlaƒç√≠tka (jedno, kter√© bude pot≈ôeba, druh√© jako rezerva pro dal≈°√≠ funkce)*
 
-*- Rychlost, ujet† vzd†lenost (prÖmÿrnou a maxim†ln° rychlost)*
+*- Rychlost, ujet√° vzd√°lenost (pr≈Ømƒõrnou a maxim√°ln√≠ rychlost)*
 
-*- PrÖmÿr kola (Z presetÖ)*
+*- Pr≈Ømƒõr kola (Z preset≈Ø)*
 
-# Projekt-DE1 - 3. zad†n°
+# Projekt-DE1 - 3. zad√°n√≠
 ## Konzole pro rotoped/kolo s LCD displejem
 
-### ¨lenovÇ tÏmu
+### ƒålenov√© t√Ωmu
 
-- HrubeÁov† Diana
-- HrubÏ Jan
-- HykÁ Matÿj
-- HynÁt Boris
+- Hrube≈°ov√° Diana
+- Hrub√Ω Jan
+- Hyk≈° Matƒõj
+- Hyn≈°t Boris
 
-[Link na n†Á Github](https://github.com/mrhyks/Projekt-DE1-3)
+[Link na n√°≈° Github](https://github.com/mrhyks/Projekt-DE1-3)
 
-### C°le projektu
+### C√≠le projektu
 
-C°lem projektu je vytvo˝it konzoli pro rotoped üi kolo s hallovou sondou. Pro zobrazov†n° vÏstupu jako je 
-rychlost, prÖmÿrn† rychlost a ujet† vzd†lenost jsme zvolili LCD displej.
+C√≠lem projektu je vytvo≈ôit konzoli pro rotoped ƒçi kolo s hallovou sondou. Pro zobrazov√°n√≠ v√Ωstupu jako je 
+rychlost, pr≈Ømƒõrn√° rychlost a ujet√° vzd√°lenost jsme zvolili LCD displej.
 
-**JednotlivÇ body projektu:**
-*- Dvÿ tlaü°tka: - Prvn°m tlaü°tkem (btn0) se d† vybrat nastaven° polomÿru kola a m¢d zobrazen° displeje*
-*                  M¢d 0 - Nastaven° velikosti kola; M¢d 1 - Zobrazen° rychlosti;     -
-*                  M¢d 2 - Zobrazen° prÖmÿrnÇ rychlosti; M¢d 3 - Zobrazen° ujetÇ vzd†lenosti*
-*                - DruhÏm tlaü°tkem (btn1) se d† vybrat polomÿr kola, kdy kolo se d† vybrat jen v p˝°padÿ, ße je vybranÏ m¢d 0*
+**Jednotliv√© body projektu:**
+*- Dvƒõ tlaƒç√≠tka: - Prvn√≠m tlaƒç√≠tkem (btn0) se d√° vybrat nastaven√≠ polomƒõru kola a m√≥d zobrazen√≠ displeje*
+*                  M√≥d 0 - Nastaven√≠ velikosti kola; M√≥d 1 - Zobrazen√≠ rychlosti;     -
+*                  M√≥d 2 - Zobrazen√≠ pr≈Ømƒõrn√© rychlosti; M√≥d 3 - Zobrazen√≠ ujet√© vzd√°lenosti*
+*                - Druh√Ωm tlaƒç√≠tkem (btn1) se d√° vybrat polomƒõr kola, kdy kolo se d√° vybrat jen v p≈ô√≠padƒõ, ≈æe je vybran√Ω m√≥d 0*
                 
-*- V p˝°padÿ, ße ußivatel chce resetovat data a zaü°t znovu (neresetuje se nastavenÏ m¢d a kola) staü° drßet obÿ tlaü°tka*
-*  po dobu dvou a v°ce sekund, resetuje se ujet† vzd†lenost a prÖmÿrn† rychlost.*
+*- V p≈ô√≠padƒõ, ≈æe u≈æivatel chce resetovat data a zaƒç√≠t znovu (neresetuje se nastaven√Ω m√≥d a kola) staƒç√≠ dr≈æet obƒõ tlaƒç√≠tka*
+*  po dobu dvou a v√≠ce sekund, resetuje se ujet√° vzd√°lenost a pr≈Ømƒõrn√° rychlost.*
                
-*- VÏstup zmÿ˝enÇ a vypoü°tanÇ rychlosti, prÖmÿrnÇ rychlosti a vzd†lenosti z°skanÇ pomoc° hallovy sondy do LCD displeje. Pro p˝eklad binarn°ho* 
-*  vÏstupu by byl zapot˝eb° extern° vÏpoüetn° modul, jako je nap˝. arduino. Funkce tohoto modulu je pops†na v sekci **Popis Hardwaru***  
+*- V√Ωstup zmƒõ≈ôen√© a vypoƒç√≠tan√© rychlosti, pr≈Ømƒõrn√© rychlosti a vzd√°lenosti z√≠skan√© pomoc√≠ hallovy sondy do LCD displeje. Pro p≈ôeklad binarn√≠ho* 
+*  v√Ωstupu by byl zapot≈ôeb√≠ extern√≠ v√Ωpoƒçetn√≠ modul, jako je nap≈ô. arduino. Funkce tohoto modulu je pops√°na v sekci **Popis Hardwaru***  
 
-*- Moßnost volby prÖmÿru kola
+*- Mo≈ænost volby pr≈Ømƒõru kola
 
 
 ## Popis Hardwaru
 
-Jako vÏvojovou desku jsme vybrali Arty A7 35. 
+Jako v√Ωvojovou desku jsme vybrali Arty A7 35. 
 
-Pro zobrazov†n° vÏstupu by jsme poußili Pmod CLP (Revision B) module. Funkci modulu jsme popsali pouze teoreticky, protoße se n†m nepoda˝ilo
-vytvo˝it p˝eklad bin†rn°ho vÏstupu do ASCII, kterÏ je pot˝eba pro zobrazov†n°.  
+Pro zobrazov√°n√≠ v√Ωstupu by jsme pou≈æili Pmod CLP (Revision B) module. Funkci modulu jsme popsali pouze teoreticky, proto≈æe se n√°m nepoda≈ôilo
+vytvo≈ôit p≈ôeklad bin√°rn√≠ho v√Ωstupu do ASCII, kter√Ω je pot≈ôeba pro zobrazov√°n√≠.  
 
 **Funkce Pmod CLP (Revision B) module**
 
-V top vrstvÿ bude napojen modul s rozhran°mi: 3x 32 bit binary a 2x 2 bit binary. Ty n†slednÿ budou napojeny na vÏpoüetn° modul (nap˝°klad Arduino) jeß bude obsahovat program psanÏ nap˝°klad v C# a ten bude m°t za £kol dosazen° hodnot p˝ijatÏch jednotlivÏmi interfacy do danÏch struktur pro m¢dy 1 - 4, n†slednÿ je p˝eloßit do bin†rn° abecedy pro jednotlivÇ znaky dle tabulky, kter† je p˝iloßena v dokumentaci tohoto LCD char displaye, n†slednÿ je podle vlastn°ho üasovaüe bude dle n†mi nastavenÇho üasu odes°lat na display spolu s p˝edch†zej°c°m p˝°kazem clear na jednotlivÇ porty, jejichß pops†n° a zapojen° je takÇ ps†no v dokumentaci a t°m dojde k vyps†n° zpr†vy na obrazovku.
+V top vrstvƒõ bude napojen modul s rozhran√≠mi: 3x 32 bit binary a 2x 2 bit binary. Ty n√°slednƒõ budou napojeny na v√Ωpoƒçetn√≠ modul (nap≈ô√≠klad Arduino) je≈æ bude obsahovat program psan√Ω nap≈ô√≠klad v C# a ten bude m√≠t za √∫kol dosazen√≠ hodnot p≈ôijat√Ωch jednotliv√Ωmi interfacy do dan√Ωch struktur pro m√≥dy 1 - 4, n√°slednƒõ je p≈ôelo≈æit do bin√°rn√≠ abecedy pro jednotliv√© znaky dle tabulky, kter√° je p≈ôilo≈æena v dokumentaci tohoto LCD char displaye, n√°slednƒõ je podle vlastn√≠ho ƒçasovaƒçe bude dle n√°mi nastaven√©ho ƒçasu odes√≠lat na display spolu s p≈ôedch√°zej√≠c√≠m p≈ô√≠kazem clear na jednotliv√© porty, jejich≈æ pops√°n√≠ a zapojen√≠ je tak√© ps√°no v dokumentaci a t√≠m dojde k vyps√°n√≠ zpr√°vy na obrazovku.
 
-Dejme tomu, ße jedeme na kole a pr†vÿ jsme ujeli 12.5 km:
-V takovÇ situaci modul pro ˝°zen° char LCD displaye p˝°jme z z portu mode dvoubitovou zpr†vu urüuj°c° aktu†lnÿ zvolenÏ mode, z toho v°, ße jej zaj°maj° informace, p˝ich†zej°c° na rozhran°, do nÿhoß je zapojen modul "calculations.distance" a z°sk† 32 bitovou bin†rn° informaci, kter† vyjad˝uje 1250 (ujet† vzd†lenost je poü°t†na v des°tk†ch metrÖ => 1250 * 10 = 12500 metrÖ = 12.5 km). Takße v°, ße poußije preset pro mode 3 => dosad° do modu: 
-˝†dek 1: mode => Distance + (pr†zdnÇ znaky)
-˝†dek 2: No.mode => 3. + (pr†zdnÏ znak) + p˝ijatÇ hodnoty p˝epoü°tanÇ na kilometry => 12.5 + (pr†zdnÏ znak) + jednotka (km) + (pr†zdnÇ znaky)
-Ty n†slednÿ p˝evede dle tabulky z dokumentace na bin†rn° k¢d, kterÏ zaÁle na jednotlivÇ porty char LCD displaye spolu s p˝edch†zen°c°m clear display p˝°kazem, podle n†mi nastavenÇho üasu pro refresh rate.
-P˝°klad takovÇ zpr†vy zas°lanÇ na display pro ujetou vzd†lenost 12,5 km
+Dejme tomu, ≈æe jedeme na kole a pr√°vƒõ jsme ujeli 12.5 km:
+V takov√© situaci modul pro ≈ô√≠zen√≠ char LCD displaye p≈ô√≠jme z z portu mode dvoubitovou zpr√°vu urƒçuj√≠c√≠ aktu√°lnƒõ zvolen√Ω mode, z toho v√≠, ≈æe jej zaj√≠maj√≠ informace, p≈ôich√°zej√≠c√≠ na rozhran√≠, do nƒõho≈æ je zapojen modul "calculations.distance" a z√≠sk√° 32 bitovou bin√°rn√≠ informaci, kter√° vyjad≈ôuje 1250 (ujet√° vzd√°lenost je poƒç√≠t√°na v des√≠tk√°ch metr≈Ø => 1250 * 10 = 12500 metr≈Ø = 12.5 km). Tak≈æe v√≠, ≈æe pou≈æije preset pro mode 3 => dosad√≠ do modu: 
+≈ô√°dek 1: mode => Distance + (pr√°zdn√© znaky)
+≈ô√°dek 2: No.mode => 3. + (pr√°zdn√Ω znak) + p≈ôijat√© hodnoty p≈ôepoƒç√≠tan√© na kilometry => 12.5 + (pr√°zdn√Ω znak) + jednotka (km) + (pr√°zdn√© znaky)
+Ty n√°slednƒõ p≈ôevede dle tabulky z dokumentace na bin√°rn√≠ k√≥d, kter√Ω za≈°le na jednotliv√© porty char LCD displaye spolu s p≈ôedch√°zen√≠c√≠m clear display p≈ô√≠kazem, podle n√°mi nastaven√©ho ƒçasu pro refresh rate.
+P≈ô√≠klad takov√© zpr√°vy zas√≠lan√© na display pro ujetou vzd√°lenost 12,5 km
 clear: RS --> 0 RW --> 0 + D0 - D7 --> 1000 0000
 first line: 0010 0010(D)|1001 0110(i)|1100 1110(s)|0010 1110(t)|1000 0110(a)|0111 0110(n)|1100 0110(c)|1010 0110(e)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|
 second line: 1100 1100(3)|0111 0100(.)|0000 0100(blank)|1000 1100(1)|0100 1100(2)|0111 0100(.)|1010 1100(5)|0000 0100(blank)|0000 0100(blank)|1101 0010(K)|1011 1010(m)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|
-tabulka pro n†Á LCD modul:
+tabulka pro n√°≈° LCD modul:
 
 ## VHDL modules description and simulations
 
