@@ -90,8 +90,8 @@ Z obrázku simulace lze vidět, že při módu (s_MODE) jiným než 0 se nedá m
 
 Odkazy:
  
-    - [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/buttons.vhd)
-    - [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_buttons.vhd)
+- [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/buttons.vhd)
+- [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_buttons.vhd)
         
 #### Modul `mode.vhd` 
 
