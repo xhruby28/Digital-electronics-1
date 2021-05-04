@@ -180,9 +180,11 @@ V modulu `distance.vhd` se řeší ujetá vzdálenost, která je závyslá na zv
 - [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/distance.vhd)
 - [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_distance.vhd)
 
-## TOP module description and simulations
+## Popis a simulace TOP modulu
 
+Modul `top.vhd` spojuje moduly `buttons.vhd` a `calculations.vhd`. Do modulu `buttons.vhd` přivádí signál z tlačítek a clk, do `calculations.vhd` mode, reset a wheel z modulu `buttons.vhd`. Dále je přiveden signál ze Hallovi sondy a clk. Z celého modulu pak jdou pryč signály z modulů distance, average a speed. Tyto signály jsou přivedeneny na piny, které by vedly do arduina, které by signál přeložilo z binárního kódu do ASCII a poslalo zpět do desky, kde by to bylo propojeno s piny JA a JB (Pmod piny) do LCD displeje.
 
+Na obrázcích simulace lze vidět, že 
 
 **Simulace modulu**
 - 0 - 10s
@@ -207,4 +209,5 @@ V modulu `distance.vhd` se řeší ujetá vzdálenost, která je závyslá na zv
 ## References
 
    1. [Arty A7 reference manual](https://reference.digilentinc.com/reference/programmable-logic/arty-a7/reference-manual)
-   2. 
+   2. [Digilent Pmod Interface Specification](https://www.digilentinc.com/Pmods/Digilent-Pmod_%20Interface_Specification.pdf)
+   3. [Pmod CLP Reference Manual](https://reference.digilentinc.com/reference/pmod/pmodclp/reference-manual)
