@@ -45,16 +45,17 @@ rychlost, průměrná rychlost a ujetá vzdálenost jsme zvolili LCD displej.
 Jako vývojovou desku jsme vybrali Arty A7 35. 
 
 Pro zobrazování výstupu by jsme použili Pmod CLP (Revision B) module. Funkci modulu jsme popsali pouze teoreticky, protože se nám nepodařilo
-vytvořit překlad binárního výstupu do ASCII, který je potřeba pro zobrazování.  
+vytvořit překlad binárního výstupu do ASCII ve VHDL, který je potřeba pro zobrazování.  
 
 **Funkce Pmod CLP (Revision B) module**
 
 V top vrstvě bude napojen modul s rozhraními: 3x 32 bit binary a 2x 2 bit binary. Ty následně budou napojeny na výpočetní modul (například Arduino) jež bude obsahovat program psaný například v C# a ten bude mít za úkol dosazení hodnot přijatých jednotlivými interfacy do daných struktur pro módy 1 - 4, následně je přeložit do binární abecedy pro jednotlivé znaky dle tabulky, která je přiložena v dokumentaci tohoto LCD char displaye, následně je podle vlastního časovače bude dle námi nastaveného času odesílat na display spolu s předcházejícím příkazem clear na jednotlivé porty, jejichž popsání a zapojení je také psáno v dokumentaci a tím dojde k vypsání zprávy na obrazovku.
 
 Dejme tomu, že jedeme na kole a právě jsme ujeli 12.5 km:
+
 V takové situaci modul pro řízení char LCD displaye příjme z z portu mode dvoubitovou zprávu určující aktuálně zvolený mode, z toho ví, že jej zajímají informace, přicházející na rozhraní, do něhož je zapojen modul "calculations.distance" a získá 32 bitovou binární informaci, která vyjadřuje 1250 (ujetá vzdálenost je počítána v desítkách metrů => 1250 * 10 = 12500 metrů = 12.5 km). Takže ví, že použije preset pro mode 3 => dosadí do modu: 
-řádek 1: mode => Distance + (prázdné znaky)
-řádek 2: No.mode => 3. + (prázdný znak) + přijaté hodnoty přepočítané na kilometry => 12.5 + (prázdný znak) + jednotka (km) + (prázdné znaky)
+ řádek 1: mode => Distance + (prázdné znaky)
+ řádek 2: No.mode => 3. + (prázdný znak) + přijaté hodnoty přepočítané na kilometry => 12.5 + (prázdný znak) + jednotka (km) + (prázdné znaky)
 Ty následně převede dle tabulky z dokumentace na binární kód, který zašle na jednotlivé porty char LCD displaye spolu s předcházenícím clear display příkazem, podle námi nastaveného času pro refresh rate.
 Příklad takové zprávy zasílané na display pro ujetou vzdálenost 12,5 km
 clear: RS --> 0 RW --> 0 + D0 - D7 --> 1000 0000
@@ -62,9 +63,23 @@ first line: 0010 0010(D)|1001 0110(i)|1100 1110(s)|0010 1110(t)|1000 0110(a)|011
 second line: 1100 1100(3)|0111 0100(.)|0000 0100(blank)|1000 1100(1)|0100 1100(2)|0111 0100(.)|1010 1100(5)|0000 0100(blank)|0000 0100(blank)|1101 0010(K)|1011 1010(m)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|0000 0100(blank)|
 tabulka pro náš LCD modul:
 
-## VHDL modules description and simulations
+## Popis a simulace modulů VHDL
 
-Write your text here.
+### buttons.vhd
+
+#### 
+
+####
+
+####
+
+### calculations.vhd 
+
+#### 
+
+####
+
+####
 
 
 ## TOP module description and simulations
