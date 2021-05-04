@@ -102,8 +102,8 @@ Modul `mode.vhd` je modul, ve kterým se volí mód zobrazení výstupu na displ
 
 Odkazy:
  
-    - [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/mode.vhd)
-    - [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_mode.vhd)
+- [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/mode.vhd)
+- [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_mode.vhd)
 
 #### Modul `wheel.vhd` 
 
@@ -114,8 +114,8 @@ Do modulu `wheel.vhd` je přiveden signál zvoleného módu z `mode.vhd`. Pokud 
 
 Odkazy:
 
-    - [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/wheel.vhd)
-    - [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_wheel.vhd)
+- [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/wheel.vhd)
+- [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_wheel.vhd)
 
 #### Modul `reset.vhd` 
 
@@ -126,8 +126,8 @@ Pokud je do modulu `reset.vhd` přiveden zároveň signál pro reset z `mode.vhd
 
 Odkazy:
  
-    - [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/reset.vhd)
-    - [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_reset.vhd)
+- [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/reset.vhd)
+- [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_reset.vhd)
 
 ### Modul `calculations.vhd`
 
@@ -140,8 +140,8 @@ Modul slouží jako sjednocení bloků `speed.vhd`, `average.vhd` a `distance.vh
 
 Odkazy:
  
-    - [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/calculations.vhd)
-    - [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_calculations.vhd)
+- [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/calculations.vhd)
+- [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_calculations.vhd)
 
 #### Modul `speed.vhd`   
 
@@ -152,8 +152,8 @@ Odkazy:
 
 Odkazy:
  
-    - [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/speed.vhd)
-    - [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_speed.vhd)
+- [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/speed.vhd)
+- [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_speed.vhd)
 
 #### Modul `average.vhd` 
 
@@ -162,9 +162,10 @@ Odkazy:
 **Simulace modulu**
 ![Simulation of average.vhd](Images/avr_sim.png)
 
-Odkazy: 
-    - [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/average.vhd)
-    - [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_average.vhd)
+Odkazy:
+ 
+- [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/average.vhd)
+- [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_average.vhd)
 
 #### Modul `distance.vhd` 
 
@@ -174,8 +175,9 @@ Odkazy:
 ![Simulation of distance.vhd](Images/dist_sim.png)
 
 Odkazy: 
-    - [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/distance.vhd)
-    - [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_distance.vhd)
+
+- [Design](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sources_1/new/distance.vhd)
+- [Testbench](https://github.com/mrhyks/Projekt-DE1-3/blob/main/DE1-3/console/console.srcs/sim_1/new/tb_distance.vhd)
 
 ## TOP module description and simulations
 
